@@ -5,8 +5,8 @@ npm i
 npx hardhat compile
 
 # mainnet test
-ALCHEMY_API_KEY=vtqCl_WPHwVu683HSlNFlL36pTaaWIJw
-npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/$ALCHEMY_API_KEY
+ALCHEMY_API_KEY= 6RiUhpbdb7M7VTsM9kD5dlYuIR4aON0Q
+npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/6RiUhpbdb7M7VTsM9kD5dlYuIR4aON0Q
 
 npx hardhat test --network localhost
 ```
